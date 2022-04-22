@@ -18,7 +18,13 @@
     <nav>
       <ul>
         <li>
-          <input class="toggle" type="checkbox" />
+          <input class="toggle" type="checkbox" onclick="dark_function"/>
+          <script>
+            function dark_function(){
+              var element = document.querySelector("light-theme");
+              element.classList.toggle("dark-theme");
+            }
+          </script>
         </li>
         <li><a href="#main">Home</a></li>
         <li><a href="#contact">Contact Us</a></li>

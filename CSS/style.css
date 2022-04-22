@@ -28,7 +28,7 @@
   --formBG:         var(--lightCoral);
   --formInput:      var(--white);
 }
-.dark-theme {
+.dark-theme .toggle:checked{
   --navBg:          var(--darkGreen);
   --navLinkHoverBg: var(--black);
   --mainBg:         var(--black);
@@ -37,6 +37,8 @@
   --formBG:         var(--romanSilver);
   --formInput:      var(--black);
 }
+
+
 
 /* toggle styles begin */
 .toggle {
