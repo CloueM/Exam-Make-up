@@ -9,4 +9,4 @@ Delegating an event handler on a container element manages an event that bubbles
 
 Consider the following scenario: you wish to handle a click on any table cell in a large table. A loop might be written to connect a click handler to each cell...or a click handler could be connected to the table, and event delegation used to activate it just for table cells (and not table headers or the whitespace within a row around cells, etc.).
 
-In addition, while adding and removing items from the container, you won't have to bother about adding and deleting event handlers on those elements; you can hook the event on the container and deal with it as it bubbles up from there.
+In addition, while adding and removing items from the container, you won't have to bother about adding and deleting event handlers on those elements; you can hook the event on the container and deal with it as it bubbles up from there.# Exam-Make-up
